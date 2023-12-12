@@ -1,0 +1,62 @@
+[
+    {
+        "Name": "Cows",
+        "Image": "../images/animals/Cow.png"
+    },
+    {
+        "Name": "Chickens",
+        "Image": "../images/animals/Chicken.png"
+    },
+    {
+        "Name": "Roosters",
+        "Image": "../images/animals/Rooster.png"
+    },
+    {
+        "Name": "Pigs",
+        "Image": "../images/animals/Pig.png"
+    },
+    {
+        "Name": "Ducks",
+        "Image": "../images/animals/Duck.png"
+    },
+    {
+        "Name": "Sheeps",
+        "Image": "../images/animals/Sheep.png"
+    },
+    {
+        "Name": "Horses",
+        "Image": "../images/animals/Horse.png"
+    },
+    {
+        "Name": "Turkeys",
+        "Image": "../images/animals/Turkey.png"
+    },
+    {
+        "Name": "Rabbits",
+        "Image": "../images/animals/Rabbit.png"
+    },
+    {
+        "Name": "Llamas",
+        "Image": "../images/animals/Llama.png"
+    },
+    {
+        "Name": "Quails",
+        "Image": "../images/animals/Quail.png"
+    },
+    {
+        "Name": "Dogs",
+        "Image": "../images/animals/Dog.png"
+    },
+    {
+        "Name": "Bees",
+        "Image": "../images/animals/Bee.png"
+    },
+    {
+        "Name": "Goat",
+        "Image": "../images/animals/Goat.png"
+    },
+    {
+        "Name": "Mules",
+        "Image": "../images/animals/Mule.png"
+    }
+]

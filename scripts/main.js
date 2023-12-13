@@ -4,3 +4,5 @@ const element = document.querySelector(".animal-list")
 const animalListing = new AnimalList(element);
 
 animalListing.init();
+
+

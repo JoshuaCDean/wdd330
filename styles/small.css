@@ -61,6 +61,35 @@ header h1 p {
     color: var(--accent1-color);
 }
 
+#back-button
+{
+    color: #FFC09F;
+    margin: auto 20px;
+    margin-right: 1rem;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 0px;
+}
+
+#back-button:hover
+{
+    color: var(--accent1-color);
+}
+
+.favorite-icon
+{
+    margin: auto;
+    margin-right: 0px;
+    font-size: 2rem;
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.favorite-icon:hover
+{
+    color: var(--accent1-color);
+}
+
 /* FOOTER */
 
 footer {
@@ -104,4 +133,98 @@ footer {
     height: 300px;
     object-fit: cover;
     border-radius: 10px;
+}
+
+/* Animal Details */
+.animal-detail
+{
+    text-align: center;
+}
+
+.animal-detail img
+{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.animal-detail ul
+{
+    list-style: none;
+    text-align: left;
+    margin: auto;
+    padding: 2px;
+}
+
+.animal-detail li
+{
+    margin: 5px 0px;
+}
+
+.animal-detail li p
+{
+    display: inline;
+    font-weight: bold;
+}
+
+.animal-detail button
+{
+    width: 100px;
+    height: 30px;
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+    border: 2px var(--secondary-color) solid;
+    border-radius: 2px;
+}
+
+.animal-detail button:hover
+{
+    background-color: var(--secondary-color);
+    color: var(--accent1-color);
+    border: 2px black solid;
+}
+
+/* Favorite List */
+.favorite-list
+{
+    list-style: none;
+}
+
+.favorite-list li
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: auto;
+}
+
+.favorite-list button
+{
+    background-color: white;
+    color: red;
+    font-weight: bolder;
+    font-size: larger;
+    border: none;
+}
+
+/* Reveal Animation */
+
+.reveal-transition
+{
+    animation: reveal 1s;
+}
+
+@keyframes reveal
+{
+    0% {opacity: 0.1;  margin-left: 280px;
+    }
+
+    85% {
+        opacity: 1;  margin-left:-20px;
+    }
+
+    95% {
+        margin-left: 10px;
+    }
 }

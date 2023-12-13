@@ -27,3 +27,11 @@ export function getParam(param) {
     const animal = urlParams.get(param);
     return animal;
 }
+
+export function getLocalStorage(key) {
+    return JSON.parse(localStorage.getItem(key));
+}
+  
+export function setLocalStorage(key, data) {
+    localStorage.setItem(key, JSON.stringify(data));
+}

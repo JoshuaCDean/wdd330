@@ -1,0 +1,35 @@
+@media only screen and (min-width: 35rem) {
+    .animal-list
+    {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    .animal-card {
+        max-width: 500px;
+        width: 100%;
+        min-width: 100px;
+    }
+
+    .animal-list > li {
+        flex: 49%;
+    }
+
+
+
+    .animal-detail
+    {
+        padding: 10px;
+        margin: auto;
+        margin-bottom: 100px;
+    }
+
+    .animal-detail h2
+    {
+        font-size: xx-large;
+    }
+
+    .animal-detail p {
+        font-size: large;
+    }
+}

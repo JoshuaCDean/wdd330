@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Animal Details</title>
-    <script type="module" src="scripts/details.js"></script>
+    <script type="module" src="scripts/favorite.js"></script>
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/medium.css">
@@ -16,13 +16,15 @@
         <div class="content-wrap">
             <header>
                 <a href="index.html"><img src="images/logo.png" alt="logo"></a>
-                <h1 class="reveal-transition">Animal<p>Details</p></h1>
-                <a href="favorite.html" class="favorite-icon">&#9733;</a>
+                <h1 class="reveal-transition">Favorite<p>Animals</p></h1>
                 <a href="index.html" id="back-button">&larr; Back</a>
             </header>
 
             <main>
-                <div class="reveal-transition" id="animal-detail-container">
+                <div class="favorite-list-holder reveal-transition">
+                    <ul class="favorite-list">
+
+                    </ul>
                 </div>
             </main>
         </div>
@@ -31,7 +33,6 @@
             <hr>
             <div id="course-info"> 
                 <p>&copy; Animal Barnyard | JOSHUA C. DEAN | WDD 330 Personal Project</p>
-
             </div>
         </footer>
     </div>

@@ -2,7 +2,7 @@ import { getData } from "./util.mjs";
 
 function animalCardTemplate(name, img) {
     return `<li class="animal-card">
-        <a href="../animal-detail.html?animal=${name}">
+        <a href="animal-detail.html?animal=${name}">
         <h2> ${name} </h2>
         <img
             src="${img}"
@@ -19,7 +19,7 @@ export default class AnimalList {
     }
 
     async init() {
-        const animalStart = await getData("../json/farm_animals.json")
+        const animalStart = await getData("json/farm_animals.json")
         renderList(this.listElement, animalStart)
     }
 }

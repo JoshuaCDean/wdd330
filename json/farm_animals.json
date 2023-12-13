@@ -1,62 +1,62 @@
 [
     {
         "Name": "Cow",
-        "Image": "../images/animals/Cow.png"
+        "Image": "images/animals/Cow.png"
     },
     {
         "Name": "Chicken",
-        "Image": "../images/animals/Chicken.png"
+        "Image": "images/animals/Chicken.png"
     },
     {
         "Name": "Rooster",
-        "Image": "../images/animals/Rooster.png"
+        "Image": "images/animals/Rooster.png"
     },
     {
         "Name": "Pig",
-        "Image": "../images/animals/Pig.png"
+        "Image": "images/animals/Pig.png"
     },
     {
         "Name": "Duck",
-        "Image": "../images/animals/Duck.png"
+        "Image": "images/animals/Duck.png"
     },
     {
         "Name": "Sheep",
-        "Image": "../images/animals/Sheep.png"
+        "Image": "images/animals/Sheep.png"
     },
     {
         "Name": "Horse",
-        "Image": "../images/animals/Horse.png"
+        "Image": "images/animals/Horse.png"
     },
     {
         "Name": "Turkey",
-        "Image": "../images/animals/Turkey.png"
+        "Image": "images/animals/Turkey.png"
     },
     {
         "Name": "Rabbit",
-        "Image": "../images/animals/Rabbit.png"
+        "Image": "images/animals/Rabbit.png"
     },
     {
         "Name": "Llama",
-        "Image": "../images/animals/Llama.png"
+        "Image": "images/animals/Llama.png"
     },
     {
         "Name": "Quail",
-        "Image": "../images/animals/Quail.png"
+        "Image": "images/animals/Quail.png"
     },
     {
         "Name": "Dog",
-        "Image": "../images/animals/Dog.png"
+        "Image": "images/animals/Dog.png"
     },
     {
         "Name": "Bee",
-        "Image": "../images/animals/Bee.png"
+        "Image": "images/animals/Bee.png"
     },
     {
         "Name": "Goat",
-        "Image": "../images/animals/Goat.png"
+        "Image": "images/animals/Goat.png"
     },
     {
         "Name": "Mule",
-        "Image": "../images/animals/Mule.png"
+        "Image": "images/animals/Mule.png"
     }
 ]

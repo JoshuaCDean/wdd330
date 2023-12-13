@@ -48,7 +48,7 @@ export default class AnimalDetail {
 
 async function renderDetails(parentElement, animalData, name, position = "afterbegin")
 {
-    const imgData = `../images/animals/${name}.png` 
+    const imgData = `images/animals/${name}.png` 
     let template = animalDetailTemplate(animalData, name, imgData)
     
     parentElement.insertAdjacentHTML(position, template);
